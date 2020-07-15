@@ -3,13 +3,24 @@
 
 body {
   display: block;
-  margin: 8px;
+  margin: 100px;
+}
+
+div {
+  display: block;
 }
 
 h1 {
   font-family: Raleway;
   font-weight: bold
   display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 
 }
 
@@ -36,6 +47,26 @@ a:hover {
 
 img {
     border-radius: 50%;
+}
+
+
+.banner { 
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  color: white;
+  padding: 200px 0;
+  opacity: 0.9;
+  color: black;
+}
+
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  color: black;
 }
 
 .btn-black {
@@ -86,7 +117,24 @@ img {
   .container {
     width: 300px;
   }
+
+  .banner {
+    padding: 50px 0;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+    color: black;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    color: black;
+  }
 }
+
+
+
 
 #introduction p {
   margin-bottom: 40px;
